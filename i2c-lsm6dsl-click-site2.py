@@ -2,7 +2,7 @@ from pynq import GPIO
 import time
 import smbus  # Must sudo apt install python3-smbus !
 
-# This will minipulate a ST LPS22HB Click in Slot 1
+# This will minipulate a ST LPS22HB Click in Slot 2
 # of the Ultra96 mikro click mezzanine board 
 
 ## Obtain the reset pin of slot 1 of the Ultra96 mikro mezzanine board
