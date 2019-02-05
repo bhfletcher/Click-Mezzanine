@@ -2,7 +2,7 @@ from pynq import GPIO
 import time
 import smbus  # Must sudo apt install python3-smbus !
 
-# This will minipulate a ST LPS22HB Click in Slot 1
+# This will minipulate a ST LSM6DSL Click in Slot 1
 # of the Ultra96 mikro click mezzanine board 
 
 ## Obtain the reset pin of slot 1 of the Ultra96 mikro mezzanine board
@@ -32,6 +32,7 @@ def i2c_read_byte(i2c, DA, DR):
 def i2c_write_byte(i2c, DA, DR, val):
     return (i2c.write_byte_data(DA, DR, val))
 
+# LSM6DSL Click does not have a reset, but code left for completeness
 # Reset is usually active LOW, hold Click in reset while I2C is setup
 # and reset the i2c mux
 #rst_pin.write(0)
