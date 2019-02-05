@@ -1,4 +1,4 @@
-## This stuff is for tinkering with the Mikro Click boards from an Avnet/Xilinx Ultra96 Python environment (Ultra96 PYNQ)
+## This stuff is for tinkering with the MikroE Click boards from an Avnet/Xilinx Ultra96 Python environment (Ultra96 PYNQ)
 
 **Pre-requisites:**
   - Ultra96 PYNQ with modified device tree for SPI devices preferred
